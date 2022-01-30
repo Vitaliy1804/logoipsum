@@ -1,0 +1,254 @@
+body {
+    font-family: 'DM Sans', sans-serif;
+}
+
+.container {
+    max-width: 1070px;
+    margin: 0 auto;
+}
+
+.header, .footer{
+    background: rgba(255, 113, 67, 0.27);
+    padding: 38px 0 48px;
+}
+
+.header__flex, .about, .subscription, .footer__flex {
+    display: flex;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+    align-items:center;
+}
+
+ .nav__li {
+     display: inline-block;
+ }
+
+ .nav__li:not(:first-of-type) {
+     margin-left: 49px;
+ }
+
+ .nav__link {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: -0.468947px;
+    color: #696871;
+    text-decoration: none;
+ }
+
+ .nav__link:hover {
+     color: black;
+     transition: 300ms;
+ } 
+
+ .button {
+    width: 212px;
+    height: 60px;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 22px;
+    letter-spacing: -0.531474px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+ }
+
+ .btn__orange {
+     background-color:  #fd6735;
+ }
+ .btn__orange:hover{
+     background-color:  #ff7e52;
+     transition: 500ms;
+ }
+
+ .about {
+    margin: 105px auto 85px;
+ }
+
+ .about__title {
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 77px;
+    letter-spacing: -2.50105px;
+    color: #19191B;
+    max-width: 467px;
+    margin-bottom: 30px;
+ }
+
+ .about__text {
+    font-family: Mulish;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: -0.625263px;
+    color: #696871;
+    max-width: 410px;
+    margin-bottom: 50px;
+ }
+
+.btn__violet {
+    background: #5454d4;
+}
+
+.btn__violet:hover {
+    background: #6e6ed3; 
+    transition: 500ms;
+}
+
+.btn__transparent {
+    background: none;
+    color: #5454d4;
+    border: 1px solid #5454d4;
+    margin-left: 35px;
+}
+
+.btn__transparent:hover {
+    background: #c3c3f1;
+    transition: 500ms;
+}
+
+/* .first__img {
+    margin-top: 104px;
+} */
+
+.subscription {
+    margin-top: 85px;
+}
+
+.img1 {
+    position: relative;
+    top: -210px;
+    
+}
+.sub__title {
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 57px;
+    letter-spacing: -1.56316px;
+    color: #19191B;
+}
+
+form {
+    margin-top: 30px;
+}
+
+.btn__email {
+    width: 302px;
+    height: 59px;
+    margin-left: 0;
+    margin-right: 30px;
+    padding: 0;
+    border: 1px solid #5454d4;
+}
+
+.plan {
+    margin-top: 85px;
+}
+
+.plan__title {
+    margin-left: 185px;
+    height: 128px;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 70px;
+    letter-spacing: -1.87579px;
+    color: #19191B;
+}
+
+.card__wrapper {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.card {
+    width: 330px;
+    height: 441px;
+    margin-top: 110px;
+    border-radius: 10px;
+    background: #F8F8F8;
+    text-align: center;
+}
+
+.card__active {
+    background: #FF7143;
+    box-shadow: 0px 32px 34px #ff703b51;
+}
+
+.card__active .card__name {
+    color: #ffffffb3;
+}
+
+.card__active .card__price {
+    color: #ffffff
+}
+
+.card__active span.small {
+    font-size: 50%;
+}
+
+.card span.small {
+    font-size: 50%;
+}
+
+.card__active .card__description {
+    color: #ffffffb3;
+}
+
+.card__active .btn__act {
+    background: #9F3919;
+    border:none;
+    color: #ffffff
+}
+
+.card__name {
+    height: 28px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    padding-top: 34px;
+    text-align: center;
+    letter-spacing: -0.562737px;
+    color: #696871;
+}
+
+.card__price {
+    height: 56px;
+    padding-top: 22px;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 56px;
+    text-align: center;
+    letter-spacing: -1.03448px;
+    color: #1D293F;
+}
+
+.card__description {
+    height: 150px;
+    padding-top: 28px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 50px;
+    text-align: center;
+    letter-spacing: -0.531474px;
+    color: #696871;
+}
+
+ .btn__act {
+    margin-top: 36px;
+    color:#5454d4;
+    border: 1px solid #EAE9F2;
+}
+
+.footer {
+    margin-top: 132px;
+    padding: 53px 0;
+}
+
+ 
