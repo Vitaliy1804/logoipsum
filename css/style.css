@@ -1,3 +1,4 @@
+
 body {
     font-family: 'DM Sans', sans-serif;
 }
@@ -119,6 +120,19 @@ body {
     height: 30px;
     position: relative;
     }
+.first__img {
+    width: 100%;
+}
+.first__img img{
+    max-width: 100%;
+}
+
+.second__img {
+    width: 100%;
+}
+.second__img img{
+    max-width: 100%;
+}
 }
 /*=========================================================================*/
 
@@ -300,6 +314,8 @@ body {
     /* overflow: hidden; */
 }
 
+
+
 @media (max-width: 991.98px) {
     .about, .subscription {
         margin: 0;
@@ -369,9 +385,6 @@ form {
 }
 
 .plan {
-    
-    /* display: flex;
-    flex-wrap: wrap; */
     margin-top: 85px;
     
 }
@@ -494,11 +507,16 @@ li.card__description .card__li {
 }
 
 @media (max-width: 767.98px) {
-    .footer__flex {
+    .footer {
+        margin-top: 0;
         display: flex;
         flex-wrap: wrap;
-
-
+        align-items: center;
+        
+    }
+    .footer__flex {
+        display: flex;
+        flex-direction: column;
     }
 
     .footer__logo {
@@ -508,9 +526,28 @@ li.card__description .card__li {
     }
 
     .footer__content {
-        width: 100%;
+        width: 50%;    
+        display: flex;
+        padding-left: 0;
+    }
+
+    .footer__li {
         display: flex;
         flex-direction: column;
         justify-content: center;
+        align-items: center;
+    }
+
+    .footer__link {
+        font-size: 20px;
+        line-height: 3;
+    }
+
+    .email {
+        width: 70%;
+        margin: 0 auto;
+        display: block;
+        margin-bottom: 10px;
+        
     }
 }
